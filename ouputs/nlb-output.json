@@ -1,0 +1,30 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:eu-central-1:545537151233:loadbalancer/net/mysfits-nlb/47753674b30fdf93",
+            "DNSName": "mysfits-nlb-47753674b30fdf93.elb.eu-central-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z3F0SRJ5LGBH90",
+            "CreatedTime": "2021-07-01T20:26:27.618000+00:00",
+            "LoadBalancerName": "mysfits-nlb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-09b6577a6d98c3f7c",
+            "State": {
+                "Code": "provisioning"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "eu-central-1a",
+                    "SubnetId": "subnet-08e2cdeff84faa64d",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "eu-central-1b",
+                    "SubnetId": "subnet-04243a91a9eb1505a",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
